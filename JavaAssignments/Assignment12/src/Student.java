@@ -3,13 +3,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.stream.Stream;
 public class Student {
-    public int id;
-    public String name;
+    private int id;
+    private  String name;
     private int age;
-    public String gender;
-    public String engDepartment;
-    public int yearOfEnrollment;
-    public double perTillDate;
+    private  String gender;
+    private  String engDepartment;
+    private int yearOfEnrollment;
+    private double perTillDate;
     public Student(int id,String name,int age,String gender,String engDepartment,int yearOfEnrollment,double perTillDate){
         this.id=id;
         this.name=name;
