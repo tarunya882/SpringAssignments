@@ -1,1 +1,0 @@
-They are displayed in reverse order, where older commit is on top.From the command list mark a commit as squashable by changing the word pick into "squash" or "s" and save the file and close it. We can give name to the commits that we squashed.
