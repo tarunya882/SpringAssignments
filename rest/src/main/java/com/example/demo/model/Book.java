@@ -24,7 +24,7 @@ public class Book {
     private String title;
 
     @NotNull
-    @Size(min = 1)
+    @Size(min = 2)
     private String author;
 
     public Book(@NotNull @Size(min = 1) String title, @NotNull @Size(min = 1) String author) {
